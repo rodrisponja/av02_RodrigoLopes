@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CollabↃhain</title>
+</head>
+<body>
+    <div id="header">
+        <figure><img src="imagens/logotipo-header.png" alt="logotipo CollabↃhain"/></figure>
+
+        <nav id="menu">
+            <ul>
+                <li><a>Projects</a></li>
+                <li><a>Profiles</a></li>
+                <li><a>Register</a></li>
+                <li><a>Sign In</a></li>
+            </ul>
+        </nav>
+
+        <div id="caixadebusca">
+            <form action="buscar.py" method="get">
+                <input type="text"/><input type="submit" value="search"/>
+            </form>
+        </div>
+    </div>
+
+    <section id="joinus">
+        <div>
+            <header><h1>Join a world of connections and creativity!</h1></header>
+            <p>Thousands of projects are waiting for your expertise on CollabↃhain.</p>
+            <p>Click the button down below and connect with professionals from around the globe, discover the most awing portfolios, and contribute to ongoing projects. All of that at only one place! </p><br/>
+            <button type="button">Register Now</button>
+            <header><h4>Share our platform and help us connect even more people:</h4></header>
+            <figure><img src="imagens/twitter.png" width="40px" height="40px"/></figure>
+            <figure><img src="imagens/instagram.png" width="40px" height="40px"/></figure>
+            <figure><img src="imagens/facebook.png" width="40px" height="40px"/></figure>
+        </div>
+    </section>
+
+    <section id="joinprojects">
+        <div>
+            <header><h1>JOIN THEM</h1></header>
+            <p>These projects are waiting on your contribution. Get to know them!</p>
+            <div id="projectlist">
+                <div>
+                    <figure><img src="imagens/projects/pinkmoney.png"/></figure>
+                    <header><h3>pinkmoney</h3></header>
+                    <p><strong>A mobile app for users to get discounts at LGBTQ+ dedicated places.</strong></p>
+                </div>
+                <div>
+                    <figure><img src="imagens/projects/collabchain.png"/></figure>
+                    <header><h3>CollabↃhain</h3></header>
+                    <p><strong>A web platform to connect professionals in the digital creative field.</strong></p>
+                </div>
+                <div>
+                    <figure><img src="imagens/projects/sweetandfree.png"/></figure>
+                    <header><h3>SWEETandFREE</h3></header>
+                    <p><strong>An app to help users collectively buy sugar free products.</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="browseprofiles">
+        <div>
+            <header><h1>BROWSE PROFILES</h1></header>
+            <p>Thousands of professionals are waiting to connect with you!</p>
+            <div id="profileslist">
+                <div>
+                    <figure><img src="imagens/profiles/rodrigolopes.png" width="200px"/></figure>
+                    <header><h3>Rodrigo Lopes</h3></header>
+                    <p><strong>UX Designer</strong></p>
+                </div>
+
+                <div>
+                    <figure><img src="imagens/profiles/marilialima.png" width="200px"/></figure>
+                    <header><h3>Marília Lima</h3></header>
+                    <p><strong>Front-End Developer</strong></p>
+                </div>
+
+                <div>
+                    <figure><img src="imagens/profiles/mateussantos.png" width="200px"/></figure>
+                    <header><h3>Mateus Santos</h3></header>
+                    <p><strong>Back-End Developer</strong></p>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section id="contactus">
+        <header><h1>CONTACT US</h1></header></br></br>
+        <div id="forms">
+            <div id="name">
+                <header><h3>Name</h3></header>
+                <form action="name.py" method="get">
+                    <input type="text"/>
+                </form>
+            </div>
+
+            <div id="email">
+                <header><h3>E-mail Address</h3></header>
+                <form action="email.py" method="get">
+                    <input type="text"/>
+                </form>
+            </div>
+            
+            <div id="message">
+                    <header><h3>Your Message</h3></header>
+                    <textarea action="text.py" method="post"></textarea>
+                    </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <figure><img src="imagens/twitter.png" width="45px" height="45px"/></figure>
+        <figure><img src="imagens/instagram.png" width="45px" height="45px"/></figure>
+        <figure><img src="imagens/facebook.png" width="45px" height="45px"/></figure>
+
+        <p>&copy; 2023 CollabↃhain. A page by Rodrigo Lopes.</p>
+    </footer>
+</body>
+</html>
